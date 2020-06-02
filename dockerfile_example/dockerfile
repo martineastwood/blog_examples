@@ -1,0 +1,19 @@
+FROM jupyter/pyspark-notebook:3b1f4f5e6cc1
+
+USER root
+
+RUN \
+    conda update -y conda && \
+    conda install --yes \
+    boto3=1.12.39 \
+    flask=1.1.2 \
+    spacy=2.2.4
+
+  RUN pip install \
+    Flask-SQLAlchemy==2.4.1 \
+    PyAthena==1.10.7
+
+  RUN apt-get update
+  RUN apt-get install -y vim curl
+
+  USER jovyan

@@ -1,1 +1,1 @@
-Example code from [martineastwood.co.uk](http://www.martineastwood.co.uk/blog/introduction-to-recommender-systems/) demonstrating item-based collaborative filtering
+Example code from [http://www.numerately.com/](http://www.numerately.com/blog/introduction-to-recommender-systems/) demonstrating item-based collaborative filtering
